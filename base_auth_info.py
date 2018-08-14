@@ -3,11 +3,11 @@ class BaseAuthInfo:
     # Base Auth Info #
 
     # API Gateway api key
-    api_key = "5wbYKROLFv38n73HWFte9xGW7zPXwah2qKuFEPgA"
+    api_key = ''
     # NCP Access key
-    access_key = 'qEvQEqjALeNxsOXqAa0F'
+    access_key = ''
     # NCP Access secrete
-    access_secrete = 'sU9ZMODPKawiR9lA2cKoKfjs9pv71pfy0eo2hkXQ'
+    access_secrete = ''
 
     # Cloud OutBound Mailer #
     # Outbound Mailer REST End-point
