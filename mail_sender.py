@@ -16,7 +16,7 @@ class MailSender(BaseAuthInfo):
     ep_path = auth_info.get_mail_ep_path()
     api_key = auth_info.get_api_key()
     access_key = auth_info.get_access_key()
-    access_secrete = auth_info.get_access_secrete()
+    access_secret = auth_info.get_access_secret()
 
     def req_email_send(self, mail_info):
         context = ssl._create_unverified_context()
@@ -45,14 +45,14 @@ class MailSender(BaseAuthInfo):
 
     def make_signature(self, timestamp):
 
-        access_secrete_bytes = bytes(self.access_secrete, 'UTF-8')
+        access_secret_bytes = bytes(self.access_secret, 'UTF-8')
 
         method = "POST"
         uri = "/api/v1/mails"
 
         message = method + " " + uri + "\n" + timestamp + "\n" + self.access_key
         message = bytes(message, 'UTF-8')
-        signing_key = base64.b64encode(hmac.new(access_secrete_bytes, message, digestmod=hashlib.sha256).digest())
+        signing_key = base64.b64encode(hmac.new(access_secret_bytes, message, digestmod=hashlib.sha256).digest())
 
         return signing_key
 

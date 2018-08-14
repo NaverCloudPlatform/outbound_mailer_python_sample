@@ -6,8 +6,8 @@ class BaseAuthInfo:
     api_key = ''
     # NCP Access key
     access_key = ''
-    # NCP Access secrete
-    access_secrete = ''
+    # NCP Access secret
+    access_secret = ''
 
     # Cloud OutBound Mailer #
     # Outbound Mailer REST End-point
@@ -19,8 +19,8 @@ class BaseAuthInfo:
     def get_access_key(self):
         return self.access_key
 
-    def get_access_secrete(self):
-        return self.access_secrete
+    def get_access_secret(self):
+        return self.access_secret
 
     def get_mail_ep_path(self):
         return self.mail_ep_path
