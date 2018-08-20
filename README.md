@@ -14,6 +14,7 @@ Cloud Funtions에서 Outbound Mailer API를 이용해 mail 전달
   
  > rss_news_parser.py : feedparser 라이브러리를 이용해, 뉴스 파싱
 
+
 인증정보 수정
 ----------
 
@@ -24,7 +25,6 @@ Cloud Funtions에서 Outbound Mailer API를 이용해 mail 전달
    <img width="1248" alt="api_key_primary_key" src="https://user-images.githubusercontent.com/41188783/44326069-7e3fe880-a495-11e8-90ab-1cd04a14b7bf.png">
    
    2) access_key : NCP Access key
-   
    3) access_secret : NCP Access secret
    
    ![image](https://user-images.githubusercontent.com/41188783/44326138-ab8c9680-a495-11e8-9db5-553116fd04ec.png)
