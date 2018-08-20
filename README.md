@@ -22,7 +22,7 @@ Cloud Funtions에서 Outbound Mailer API를 이용해 mail 전달
 
    1) api_key : API Gateway Primary Key
    
-   <img width="1248" alt="api_key_primary_key" src="https://user-images.githubusercontent.com/41188783/44326069-7e3fe880-a495-11e8-90ab-1cd04a14b7bf.png">
+   ![api_key_primary_key](https://user-images.githubusercontent.com/41188783/44326549-f5c24780-a496-11e8-9ba2-2146af69e78f.png)
    
    2) access_key : NCP Access key
    3) access_secret : NCP Access secret
